@@ -1,0 +1,151 @@
+
+===== Starting Fold 1/5 =====
+
+--- Fold 1/5 ---
+Fine-Tune Epoch 1: Val F1 (Macro)=0.7347
+Fine-Tune Epoch 2: Val F1 (Macro)=0.8011
+Fine-Tune Epoch 3: Val F1 (Macro)=0.8108
+Fine-Tune Epoch 4: Val F1 (Macro)=0.8446
+Fine-Tune Epoch 5: Val F1 (Macro)=0.8379
+Fine-Tune Epoch 6: Val F1 (Macro)=0.8573
+Fine-Tune Epoch 7: Val F1 (Macro)=0.8702
+Fine-Tune Epoch 8: Val F1 (Macro)=0.8704
+Fine-Tune Epoch 9: Val F1 (Macro)=0.8753
+Fine-Tune Epoch 10: Val F1 (Macro)=0.8767
+
+Final Macro F1 (Fold 1): 0.8767
+              precision    recall  f1-score   support
+
+           0       0.82      0.80      0.81      5325
+           1       0.86      0.93      0.90      5399
+           2       0.85      0.86      0.85      5359
+           3       0.93      0.95      0.94      5362
+           4       0.93      0.86      0.89      5460
+
+    accuracy                           0.88     26905
+   macro avg       0.88      0.88      0.88     26905
+weighted avg       0.88      0.88      0.88     26905
+ New overall best model saved: /Users/vtech/Desktop/f25-16/fraud-detection/models/driverlicense/resnet50/second_attempt_fix/best_model.pth (F1=0.8767)
+ Completed Fold 1 | Macro F1=0.8767
+
+===== Starting Fold 2/5 =====
+
+--- Fold 2/5 ---
+Fine-Tune Epoch 1: Val F1 (Macro)=0.7570
+Fine-Tune Epoch 2: Val F1 (Macro)=0.8051
+Fine-Tune Epoch 3: Val F1 (Macro)=0.8203
+Fine-Tune Epoch 4: Val F1 (Macro)=0.8448
+Fine-Tune Epoch 5: Val F1 (Macro)=0.8390
+Fine-Tune Epoch 6: Val F1 (Macro)=0.8668
+Fine-Tune Epoch 7: Val F1 (Macro)=0.8600
+Fine-Tune Epoch 8: Val F1 (Macro)=0.8728
+Fine-Tune Epoch 9: Val F1 (Macro)=0.8734
+Fine-Tune Epoch 10: Val F1 (Macro)=0.8728
+
+Final Macro F1 (Fold 2): 0.8734
+              precision    recall  f1-score   support
+
+           0       0.85      0.74      0.79      5304
+           1       0.89      0.89      0.89      5295
+           2       0.80      0.91      0.85      5485
+           3       0.95      0.93      0.94      5406
+           4       0.89      0.90      0.89      5414
+
+    accuracy                           0.87     26904
+   macro avg       0.88      0.87      0.87     26904
+weighted avg       0.88      0.87      0.87     26904
+ Completed Fold 2 | Macro F1=0.8734
+
+===== Starting Fold 3/5 =====
+
+--- Fold 3/5 ---
+Fine-Tune Epoch 1: Val F1 (Macro)=0.7423
+Fine-Tune Epoch 2: Val F1 (Macro)=0.7907
+Fine-Tune Epoch 3: Val F1 (Macro)=0.8242
+Fine-Tune Epoch 4: Val F1 (Macro)=0.8299
+Fine-Tune Epoch 5: Val F1 (Macro)=0.8540
+Fine-Tune Epoch 6: Val F1 (Macro)=0.8380
+Fine-Tune Epoch 7: Val F1 (Macro)=0.8643
+Fine-Tune Epoch 8: Val F1 (Macro)=0.8748
+Fine-Tune Epoch 9: Val F1 (Macro)=0.8750
+Fine-Tune Epoch 10: Val F1 (Macro)=0.8728
+
+Final Macro F1 (Fold 3): 0.8750
+              precision    recall  f1-score   support
+
+           0       0.79      0.84      0.82      5519
+           1       0.87      0.91      0.89      5362
+           2       0.88      0.81      0.84      5403
+           3       0.94      0.94      0.94      5335
+           4       0.91      0.86      0.88      5285
+
+    accuracy                           0.87     26904
+   macro avg       0.88      0.87      0.88     26904
+weighted avg       0.88      0.87      0.87     26904
+ Completed Fold 3 | Macro F1=0.8750
+
+===== Starting Fold 4/5 =====
+
+--- Fold 4/5 ---
+Fine-Tune Epoch 1: Val F1 (Macro)=0.7533
+Fine-Tune Epoch 2: Val F1 (Macro)=0.7698
+Fine-Tune Epoch 3: Val F1 (Macro)=0.7709
+Fine-Tune Epoch 4: Val F1 (Macro)=0.8357
+Fine-Tune Epoch 5: Val F1 (Macro)=0.8488
+Fine-Tune Epoch 6: Val F1 (Macro)=0.8686
+Fine-Tune Epoch 7: Val F1 (Macro)=0.8673
+Fine-Tune Epoch 8: Val F1 (Macro)=0.8758
+Fine-Tune Epoch 9: Val F1 (Macro)=0.8818
+Fine-Tune Epoch 10: Val F1 (Macro)=0.8872
+
+Final Macro F1 (Fold 4): 0.8872
+              precision    recall  f1-score   support
+
+           0       0.81      0.87      0.84      5366
+           1       0.87      0.93      0.90      5418
+           2       0.88      0.85      0.87      5339
+           3       0.96      0.93      0.95      5430
+           4       0.92      0.86      0.89      5351
+
+    accuracy                           0.89     26904
+   macro avg       0.89      0.89      0.89     26904
+weighted avg       0.89      0.89      0.89     26904
+ New overall best model saved: /Users/vtech/Desktop/f25-16/fraud-detection/models/driverlicense/resnet50/second_attempt_fix/best_model.pth (F1=0.8872)
+ Completed Fold 4 | Macro F1=0.8872
+
+===== Starting Fold 5/5 =====
+
+--- Fold 5/5 ---
+Fine-Tune Epoch 1: Val F1 (Macro)=0.7489
+Fine-Tune Epoch 2: Val F1 (Macro)=0.7502
+Fine-Tune Epoch 3: Val F1 (Macro)=0.8193
+Fine-Tune Epoch 4: Val F1 (Macro)=0.8420
+Fine-Tune Epoch 5: Val F1 (Macro)=0.8421
+Fine-Tune Epoch 6: Val F1 (Macro)=0.8605
+Fine-Tune Epoch 7: Val F1 (Macro)=0.8741
+Fine-Tune Epoch 8: Val F1 (Macro)=0.8678
+Fine-Tune Epoch 9: Val F1 (Macro)=0.8793
+Fine-Tune Epoch 10: Val F1 (Macro)=0.8787
+
+Final Macro F1 (Fold 5): 0.8793
+              precision    recall  f1-score   support
+
+           0       0.81      0.82      0.82      5391
+           1       0.87      0.93      0.90      5425
+           2       0.87      0.83      0.85      5320
+           3       0.92      0.96      0.94      5372
+           4       0.93      0.86      0.89      5396
+
+    accuracy                           0.88     26904
+   macro avg       0.88      0.88      0.88     26904
+weighted avg       0.88      0.88      0.88     26904
+ Completed Fold 5 | Macro F1=0.8793
+
+===== CROSS-VALIDATION SUMMARY =====
+Fold 1: Macro F1 = 0.8767
+Fold 2: Macro F1 = 0.8734
+Fold 3: Macro F1 = 0.8750
+Fold 4: Macro F1 = 0.8872
+Fold 5: Macro F1 = 0.8793
+
+Average Macro F1: 0.8783 ± 0.0048
